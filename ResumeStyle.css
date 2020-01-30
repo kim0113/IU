@@ -1,0 +1,17 @@
+body{
+text-align:center;
+background-color: #00bed4;
+}
+
+h2{
+color:black;
+margin:-3px
+}
+ul{
+text-align:center;
+list-style:inside;
+margin-left:-50px;
+}
+ol{
+list-style:inside;
+}

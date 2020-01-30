@@ -1,0 +1,48 @@
+body{
+text-align:center;
+background-image: url("Gif2.gif");
+}
+
+img{
+margin: 70px 50px 0px 50px
+}
+
+button{
+margin: 3px;
+background-color: #555555;
+font-color: #3bdbb6;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 20px;
+box-shadow: 0 5px;
+}
+button:hover{
+background-color: #e7e7e7;
+color: black;
+}
+button:active{
+background-color: #555555;
+box-shadow: 0 3px;
+}
+
+input {   
+margin: 5px;
+padding: 5px;    
+font-size: 16px;    
+border-width: 4px;    
+border-color: #000000;    
+background-color: #FFFFFF;    
+color: #000000;    
+border-style: solid;    
+border-radius: 11px;    
+box-shadow: -10px 0px 5px rgba(66,66,66,.70);    
+text-shadow: 0px 0px 0px rgba(0,0,0,100);
+}
+ 
+input:focus {
+outline:none;
+}
+
+
+
+
