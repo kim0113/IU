@@ -5,8 +5,14 @@ for(var i = 5;i>0;i--){
     }
 }
 
-function getdouble(){
-    var num = document.getElementById("number").value;
-    var totel = document.getElementsByTagName("t");
-    alert(totel.length);
+function Login(){
+    var Username = document.getElementById("Username").value;
+    var Password = document.getElementById("Password").value;
+    (alert Username);
+
+	if(Username == "Sgt" && Password == "kkk"){
+  	   location.href("file:///C:/Users/User/IU/IU/My%20Resume.html");
+	}else if(Username == "" || Password = ""){
+    alert("Please check if Username or Password is Correct");
+}
 }
