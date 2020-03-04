@@ -1,18 +1,15 @@
-function showmessage(){
-    alert("Hi, lets learn Javascript!");
-for(var i = 5;i>0;i--){
-    alert("Variable I is now: " + i);
-    }
-}
-
 function Login(){
-    var Username = document.getElementById("Username").value;
-    var Password = document.getElementById("Password").value;
-    (alert Username);
+    var userName = document.getElementById("userName").value;
+    var passWord = document.getElementById("passWord").value;
 
-	if(Username == "Sgt" && Password == "kkk"){
-  	   location.href("file:///C:/Users/User/IU/IU/My%20Resume.html");
-	}else if(Username == "" || Password = ""){
-    alert("Please check if Username or Password is Correct");
-}
+	if(userName == "Sgt" && passWord == "kkk"){
+  	   return;
+		document.getElementById("userName").reset();
+	}else if(userName == "" || passWord = ""){
+    	   alert("Login failed, please enter a valid Username and Password");
+	   return false;
+	}else{
+	   alert("Login failed, incorrect Username or Password");
+	   return flase;
+	}
 }
