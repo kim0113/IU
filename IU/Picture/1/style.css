@@ -1,16 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(pic1.jpg);
-    background-size:auto;
+    background: url(pic2.jpg);
+    background-size: cover;
     background-position: center;
     font-family:monospace;
 }
 
-.loginbox{
-    width: 320px;
-    height: 420px;
-    background: #000;
+.loginpage{
+    width: 350px;
+    height: 520px;
+    background: #8BD8BD;
     color: #fff;
     top: 50%;
     left: 50%;
@@ -21,11 +21,11 @@ body{
 }
 
 .avatar{
-    width: 120px;
-    height: 120px;
+    resize: vertical;
+    width: 160px;
+    height: 140px;
     border-radius: 50%;
-    margin: -130px 0px 3px 70px;
-    top: -50%px;
+    margin: -150px 0px 40px 65px;
     left: calc(50% - 50%px);
 }
 
@@ -33,54 +33,92 @@ h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
+    color: black;
     font-size: 30px;
 }
 
-.loginbox p{
+.loginpage p{
     margin: 0;
     padding: 0;
-    font-size: 22px;
+    color: black;
+    font-size: 26px;
     font-weight: bold;
 }
 
-.loginbox input{
+.loginpage input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"]{
+.loginpage input[type="text"], input[type="password"]{
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     background: transparent;
     outline: none;
-    height: 35px;
-    color: #fff;
-    font-size: 16px;
+    height: 40px;
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
 }
 
-.loginbox input[type="submit"]{
+.loginpage input[type="submit"]{
     border: none;
     outline: none;
     height: 40px;
-    background: #fb2525;
+    background: #EE4423;
     color: #fff;
-    font-size: 18px;
+    font-size: 19px;
     border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 45px;
 }
 
-.loginbox input[type="submit"]:hover{
+.loginpage input[type="submit"]:hover{
     cursor: pointer;
     background: #ffc107;
     color: #000;
 }
 
-.loginbox a{
+.loginpage a{
     text-decoration: none;
     font-size: 20px;
     line-height: 1.3;
-    color: darkgray
+    color: blueviolet;
 }
 
-.loginbox a:hover{
-    color: #ffc107;
+.loginpage a:hover{
+    color: #EB2188;
 }
+
+
+/* 
+ .form input[type="submit"]:active{
+    border: none;
+    outline: none;
+    background: #EE4423;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.form .message{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.form .message a{
+    color: blueviolet;
+}
+
+.form .message a:hover{
+    color: #EB2188;
+}
+
+.form .registerform{
+    display: none;
+}
+*/

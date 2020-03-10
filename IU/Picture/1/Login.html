@@ -3,20 +3,42 @@
 <title>Login Form Design</title>
     <link rel="stylesheet" type="text/css" href="style.css" >
 <body>
-    <div class="loginbox">
-    <img src="avatar.png" class="avatar">
-        <h1>Login Here</h1>
-        <form>
+    <div class="loginpage">
+
+    <img src="avatar2.png" class="avatar">
+        <!--<h1>Login Here</h1>-->
+        
+        <form class="loginform">
             <p>Username</p>
             <input type="text" name="" placeholder="Enter Username">
             <p>Password</p>
             <input type="password" name="" placeholder="Enter Password">
             <input type="submit" name="" value="Login">
             <a href="#">Forget Password?</a><br>
-            <a href="#">Create New Account</a>
+            <p class="message">Not Registered? <a href="#"> Register</a>
         </form>
-    </div>
-
+        </div>
+        
 </body>
 </head>
 </html>
+        
+        <!--<div class="form">
+
+        <form class="registerform">
+            <input type="text" name="" placeholder="Username">
+            <input type="password" name="" placeholder="Password">
+            <input type="text" name="" placeholder="Email Address">
+            <input type="submit" name="" value="Create">
+            <p class="message">Already Registered?<a href="#">Login</a></p>
+        </form>
+    </div>
+    
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+
+    <script>
+        $('.message a').click(function){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });
+    </script>-->
+    
